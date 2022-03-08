@@ -2,7 +2,7 @@
 print('hello world')
 
 
-print("")
+print("print something literaly\n you know about it!!")
 
 # variables in python
 # Python variables do not need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable
