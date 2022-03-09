@@ -24,3 +24,7 @@ print(phrase.index('o'))
 # replace simple function
 
 print(phrase.replace('o', 'A'))
+
+# if a want to know the lenght of srtring we have de len function
+
+print(len(phrase))
