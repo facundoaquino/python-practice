@@ -17,7 +17,6 @@ print(aNumber*5+9)
 
 # converting number to a string
 
-
 print(str(aNumber))
 
 # we can get the absolute value in a number whit abs function
@@ -32,3 +31,9 @@ print(pow(2,3))
 # round a number
 
 print(round(9.3))
+
+# sqrt
+
+print(sqrt(81))
+
+print(trunc(sqrt(81)))

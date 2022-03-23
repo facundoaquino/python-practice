@@ -28,3 +28,9 @@ booleanData = True
 
 if not booleanData & 0:
     print('boolean ok')
+
+
+# type of variable
+
+print(type(thing_name))
+print(type(a_number))
