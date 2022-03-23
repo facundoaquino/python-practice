@@ -9,5 +9,5 @@ def getInput():
 
 inp = getInput()
 while not(inp ==  'FIN'):
-    print(inp)
+    inp[0] == inp[len(inp)-1]  and print(inp)         
     inp = getInput()
