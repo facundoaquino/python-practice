@@ -34,3 +34,15 @@ if not booleanData & 0:
 
 print(type(thing_name))
 print(type(a_number))
+
+
+# function range para obtener un rango
+
+getARange = range(100)
+print(getARange) 
+
+
+# operador termario
+num = 200
+isBig = True if num >100  else False
+print((isBig))
