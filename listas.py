@@ -5,6 +5,9 @@ datos, inclusive listas.
 Las listas son datos MUTABLES. ¿Qué quiere decir esto?
 '''
 
+ 
+
+
 notas = [ 4, 6, 7, 3, 8, 1, 10, 4]
 
 
@@ -41,8 +44,8 @@ print(lettersList[0:1])
 print(lettersList)
 
 # Asignación de listas
-rock = ["Riff", "La Renga", "La Torre"]
-blues = ["La Mississippi", "Memphis"]
+rock = ["Riff", "La Renga", "La Torr"]
+blues = ["La Mississip", "Memphis"]
 musica = rock
 print(rock)
 
@@ -51,3 +54,19 @@ musica.pop()
 print(rock)
 
 
+print('APPEND EN LAS LISTA INSERTA UN ELEMENTO AL FINAL')
+
+myList =['pepe','pedro','marcela']
+print(f'la lista es   {myList}')
+myList.append('gracie')
+print(f'la lista es   {myList}')
+
+print('PODEMOS COPIAR LOS VALORES DE UNA LISTA A OTRA SIN COPIAR LA REFERENCIA Y MODIFICAR TRANQUILES')
+myList =['pepe','pedro','marcela']
+myListCopied = myList.copy()
+
+print(myListCopied.pop())
+
+
+
+ 
