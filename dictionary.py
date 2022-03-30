@@ -18,9 +18,14 @@ Otra forma de crear diccionarios
 '''
 
 
-notas = {"Janis Joplin":10, "Elvis Presley": 9, "Bob Marley": 5, "Jimi Hendrix": 9}
+notas = {"Janis Joplin":10, "Elvis Presley": 9, "Bob Marley": 5, "Jimi Hendrix": 9 , "charly":10}
+# add key and value
+notas[2]='eppe'
 
 print(notas)
+print(notas["charly"])
+
+isCharl = "charl" in notas
 
 
 # Por comprensión
