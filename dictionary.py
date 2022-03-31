@@ -19,6 +19,10 @@ Otra forma de crear diccionarios
 
 
 notas = {"Janis Joplin":10, "Elvis Presley": 9, "Bob Marley": 5, "Jimi Hendrix": 9 , "charly":10}
+
+print(f'metodo .items()    {notas.items()}')
+
+
 # add key and value
 notas[2]='eppe'
 

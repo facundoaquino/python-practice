@@ -1,1 +1,1 @@
-counter_words.most_common(1)
+doubles3
