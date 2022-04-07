@@ -33,5 +33,8 @@ from helpers import triple
 print(triple.triple(9))
  
 
+from helpers import clear_str 
+
+print(clear_str.clear_str('testing a funcion from another directory'))
  
 print('this is the main funcion')
