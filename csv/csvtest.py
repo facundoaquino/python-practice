@@ -32,4 +32,23 @@ shows_ar = filter(lambda x: x[5] == "Argentina" and x[1] == "TV Show",csvreader)
 for elem in shows_ar:
   print(f"{elem[2]:<40} {elem[3]}")
 print(shows_ar)
+
+file.seek(0)
+
+
+#  reading with DictReader to get the information on objects/dics
+csvDict=csv.DictReader(file,delimiter=',')
+
+print(csvDict.fieldnames)
+print(csvDict.dialect)
+print(csvDict.line_num)
+print(csvDict.reader)
+print(csvDict.restkey)
+print(csvDict)
+
+# for line in csvDict:
+#     print(line)
+
+
+
 file.close()
